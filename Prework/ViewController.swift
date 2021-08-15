@@ -46,10 +46,8 @@ class ViewController: UIViewController {
         let tip = bill * (Double(sliderTipControl.value)/100)
         let total = bill + tip
         
-        // Here is a change, testing to see if show up in github
-        
         // Update the selected tip label
-        sliderSelectedTip.text = String(format: "%.2f", sliderTipControl.value)
+        sliderSelectedTip.text = String(format: "%.2f", sliderTipControl.value) + "%"
         // Update Tip Amount Label
         tipAmountLabel.text = String(format: "$%.2f", tip)
         // Update Total Amount
