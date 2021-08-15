@@ -22,7 +22,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] Create a tip slider that adjusts the tip percentage.
+- [X] Create a tip slider that adjusts the tip percentage.
 
 ## Video Walkthrough
 
